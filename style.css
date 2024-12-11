@@ -1,24 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
-body {
- background-color:#000000;
-
+.philosopher-regular {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
+ background-color:#000000;
     background-image: url('orig.jpg');
     background-repeat: no-repeat;
     background-position: top right;
 background-size: 717px auto;
+ font-family: "Philosopher", sans-serif;
  }
 
 
-.body {
-  font-family: sans-serif;
-}
 
 .name {
-    font-family: sans-serif;
+    
     color: #FFFFFF;
 font-size:70px;
 
@@ -27,18 +27,19 @@ margin-left: 87px;
 }
 
 .block {
-    font-family: sans-serif;
+   
     color: #FFFFFF;
 font-size:24px;
 margin-left: 87px;
 margin-bottom: 15px;
 
-
-
 }
 
+hr {
+margin-left: 89px;}
+
 .entry {
-    font-family: sans-serif;
+    
     color: #FFFFFF;
 font-size:42px;
 margin-left: 87px
